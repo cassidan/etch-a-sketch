@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="javascript.js" defer></script>
+</head>
+
+<body>
+
+  <div class="containerDiv">
+    <div class ="squaresDiv"></div>
+
+    <input 
+      type = "text" placeholder = "Change Board Size" onchange = "changeSize(this.value)"/>
+    <button>Change Size</button>
+
+    <div class = "colors">
+      <button class = "buttonBlack" onclick = "changeColor('black')"></button>
+      <button class = "buttonWhite" onclick = "changeColor('white')"></button>
+      <button class = "buttonBlue" onclick = "changeColor('blue')"></button>
+      <button class = "buttonRed" onclick = "changeColor('red')"></button>
+      <button class = "buttonGreen" onclick = "changeColor('green')"></button>
+    </div>
+
+  </div>
+
+</body>
+</html>
